@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dlX-3U-dXg">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sample 01-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="Sample01" customModule="CAGradientLayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Sample 01" id="BHq-xl-Znb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="767" y="-212"/>
+        </scene>
+        <!--Sample 02-->
+        <scene sceneID="zwu-an-pZP">
+            <objects>
+                <viewController id="lkH-Bg-ucb" customClass="Sample02" customModule="CAGradientLayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TRs-MF-sAo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="gpH-pg-VOG"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Sample 02" id="MSo-Qa-g7g"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V7B-dm-3Z0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1590" y="-213"/>
+        </scene>
+        <!--Sample04-->
+        <scene sceneID="KgN-Ml-2Ku">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="dlX-3U-dXg" customClass="Sample04" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5pE-mW-ATd">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="yWW-0O-99j"/>
+                        <segue destination="lkH-Bg-ucb" kind="relationship" relationship="viewControllers" id="leK-UE-A8k"/>
+                        <segue destination="wG8-np-03K" kind="relationship" relationship="viewControllers" id="hBY-DB-Mmb"/>
+                        <segue destination="Zb0-OP-ToG" kind="relationship" relationship="viewControllers" id="iWq-pG-JA0"/>
+                        <segue destination="9Z2-Xn-Uk4" kind="relationship" relationship="viewControllers" id="55W-Ib-gSZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YYG-wv-pU8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-145" y="-214"/>
+        </scene>
+        <!--Sample 03-->
+        <scene sceneID="f4c-qh-kbc">
+            <objects>
+                <viewController id="wG8-np-03K" customClass="Sample03" customModule="CAGradientLayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qw0-2L-87N">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="JoN-dT-ept"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Sample 03" id="twe-3j-UKG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HAO-sQ-Fqr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2439" y="-213"/>
+        </scene>
+        <!--Sample 04-->
+        <scene sceneID="ja1-Oa-fRU">
+            <objects>
+                <viewController id="Zb0-OP-ToG" customClass="Sample04" customModule="CAGradientLayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xxe-rO-Vv0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="yC4-3s-2jF"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Sample 04" id="qBg-HB-3OU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DBF-A4-bme" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766" y="-911"/>
+        </scene>
+        <!--Sample 05-->
+        <scene sceneID="GwX-65-cr5">
+            <objects>
+                <viewController id="9Z2-Xn-Uk4" customClass="Sample05" customModule="CAGradientLayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6ZQ-yk-R6F">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="1Y3-ge-c1v"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Sample 05" id="5cr-1W-e8m"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BsG-m2-e67" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1590" y="-912"/>
+        </scene>
+    </scenes>
+</document>
