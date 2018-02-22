@@ -169,6 +169,7 @@
 				TargetAttributes = {
 					7469E42A1A7C8E8200C68120 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = J9BDLQP95V;
 						LastSwiftMigration = 0800;
 					};
 					7469E43F1A7C8E8200C68120 = {
@@ -359,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9BDLQP95V;
 				INFOPLIST_FILE = LocalNotificationsTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lumarow.$(PRODUCT_NAME:rfc1034identifier)";
@@ -371,6 +373,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9BDLQP95V;
 				INFOPLIST_FILE = LocalNotificationsTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lumarow.$(PRODUCT_NAME:rfc1034identifier)";
